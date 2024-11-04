@@ -14,3 +14,19 @@
 		}
 	]
 }
+
+####################################################################
+
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1730734794685",
+    "Statement": [
+        {
+            "Sid": "Stmt1730734788044",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::3triple-g.com/*"
+        }
+    ]
+}
