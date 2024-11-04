@@ -1,0 +1,16 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "SchenkMas",
+			"Principal": "*",
+			"Effect": "Allow",
+			"Action": [
+			    "s3:GetObject"
+			    ],
+			    "Resource": [
+			             "arn:aws:s3:::pic-gia-3triple-g.com/*"
+			        ]
+		}
+	]
+}
